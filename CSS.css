@@ -1,0 +1,27 @@
+.column {
+    float: left;
+    width: 50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.td, th {
+    text-align: left;
+    padding: 8px;
+}
+.video{
+    margin-left: 20%;
+}
+.image{
+    margin-left: 10%;
+}
+.tabula{
+    margin-left: 10%;
+}
+
